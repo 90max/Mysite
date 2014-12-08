@@ -1,5 +1,25 @@
-h1 {
-  color: red;
-  background-size: 100%; }
+div.nav-bar {
+  height: 10em;
+  border: solid;
+  margin-left: 6em;
+  margin-right: 6em; }
+
+div.pf-carousel {
+  height: 20em;
+  background-color: red;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 6em;
+  margin-left: 6em; }
+
+#mid-page-heading {
+  margin-left: 6em; }
+
+.dev-creds {
+  height: 30em;
+  margin-right: 6em;
+  margin-left: 6em;
+  margin-top: 2em;
+  border: solid; }
 
 /*# sourceMappingURL=homepage.css.map */
