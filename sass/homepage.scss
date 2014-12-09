@@ -73,9 +73,29 @@ div.pf-carousel{
 }
 
 .dev-creds{
+
 	height:30em;
 	margin-right: 6em;
 	margin-left: 6em;
 	margin-top: 2em;
-	border: solid;
+	padding-left: 1em;
+	border: dashed;
+		#creds1{
+			width: 32%;
+			height: 100%;
+			border: dotted;
+			display: inline-block;
+		}
+		#creds2{
+			width: 32%;
+			height: 100%;
+			border: dotted;
+			display: inline-block;
+		}
+		#creds3{
+			width: 32%;
+			height: 100%;
+			border: dotted;
+			display: inline-block;
+		}
 }
