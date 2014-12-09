@@ -1,3 +1,8 @@
+/*#pageone{
+	background-image:url("../imgs/horizon.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+}*/
 div.nav-bar {
   height: 10em;
   margin-left: 6em;
@@ -21,21 +26,22 @@ div.nav-bar {
       margin-left: 3.5em;
       display: inline; }
   div.nav-bar #logo-holder {
-    border: solid;
-    border-radius: 50%;
-    height: 10em;
+    z-index: 2;
+    height: 198px;
     width: 10em;
     margin-left: 10em;
-    display: inline-block; }
+    display: inline-block;
+    background-image: url("../imgs/high-toad.png"); }
   div.nav-bar #social-media-left {
     margin-left: 1.5em; }
   div.nav-bar #social-media-right {
     margin-left: 1em; }
 
 div.pf-carousel {
+  z-index: 1;
   height: 20em;
   border: solid;
-  margin-top: 2em;
+  /*margin-top: 2em;*/
   margin-bottom: 2em;
   margin-right: 6em;
   margin-left: 6em; }
