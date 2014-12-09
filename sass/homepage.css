@@ -3,57 +3,125 @@
 	height: 100vh;
 	background-repeat: no-repeat;
 }*/
+@media screen and (max-width: 959px) {
+  div.nav-bar {
+    width: 100%; }
+
+  #nav-right {
+    width: 33%; }
+
+  #nav-left {
+    width: 33%; }
+
+  #logo-holder {
+    width: 33%; } }
+/*@media screen and (max-width:640px){
+	div.nav-bar{
+		width: 100%;
+	}
+	#nav-right{
+		width: 50%;
+	}
+	#nav-left{
+		width: 50%;
+	}
+	#logo-holder{
+		width: 100%;
+	}
+}*/
+@font-face {
+  font-family: Futurafont;
+  src: url(/fonts/FuturaExtended.ttf); }
 div.nav-bar {
   height: 10em;
   margin-left: 6em;
   margin-right: 6em; }
   div.nav-bar #nav-right {
+    font-family: Futurafont;
     float: right;
-    margin-right: 5em; }
+    width: 33%;
+    /*margin-right: 5em;*/ }
     div.nav-bar #nav-right hr {
       margin-top: 2em;
-      margin-left: 2.6em; }
+      margin-right: 3em;
+      margin-bottom: 1.5em; }
     div.nav-bar #nav-right li {
-      margin-right: 3.5em;
+      margin-right: 4.5em;
       display: inline; }
   div.nav-bar #nav-left {
+    font-family: Futurafont;
     float: left;
-    margin-left: 3.5em; }
+    width: 33%;
+    /*margin-left: 3.5em;*/ }
     div.nav-bar #nav-left hr {
       margin-top: 2em;
-      margin-left: 3em; }
+      margin-left: 3em;
+      margin-bottom: 1.5em; }
     div.nav-bar #nav-left li {
-      margin-left: 3.5em;
+      margin-left: 4.5em;
       display: inline; }
   div.nav-bar #logo-holder {
+    width: 33%;
     z-index: 2;
     height: 198px;
-    width: 10em;
-    margin-left: 10em;
     display: inline-block;
-    background-image: url("../imgs/high-toad.png"); }
+    background-image: url("../imgs/high-toad.png");
+    background-position: center;
+    background-repeat: no-repeat; }
   div.nav-bar #social-media-left {
+    margin-top: 1em;
     margin-left: 1.5em; }
   div.nav-bar #social-media-right {
+    margin-top: 1em;
     margin-left: 1em; }
 
 div.pf-carousel {
   z-index: 1;
   height: 20em;
   border: solid;
-  /*margin-top: 2em;*/
   margin-bottom: 2em;
-  margin-right: 6em;
-  margin-left: 6em; }
+  margin-right: 15em;
+  margin-left: 15em; }
 
 #mid-page-heading {
-  margin-left: 6em; }
+  font-family: Futurafont;
+  margin-left: 15em; }
 
 .dev-creds {
   height: 30em;
-  margin-right: 6em;
-  margin-left: 6em;
+  margin-right: 14em;
+  margin-left: 14em;
   margin-top: 2em;
-  border: solid; }
+  margin-bottom: 2em;
+  padding-left: 0.8em;
+  font-family: Futurafont; }
+  .dev-creds #creds1 {
+    width: 31%;
+    height: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+    padding: 0.2em; }
+  .dev-creds #creds2 {
+    width: 31%;
+    height: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+    padding: 0.2em; }
+  .dev-creds #creds3 {
+    width: 31%;
+    height: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    padding: 0.2em; }
+
+.footer {
+  width: 100%;
+  height: 4em;
+  border: dashed; }
 
 /*# sourceMappingURL=homepage.css.map */
