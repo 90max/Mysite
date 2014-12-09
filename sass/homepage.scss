@@ -4,6 +4,11 @@
 	background-repeat: no-repeat;
 }*/
 
+@font-face {
+    font-family: Futurafont;
+    src: url(/fonts/FuturaExtended.ttf);
+}
+
 div.nav-bar{
 
 	height: 10em;
@@ -17,6 +22,7 @@ div.nav-bar{
 				hr{
 					margin-top: 2em;
 					margin-left: 2.6em;
+					margin-bottom: 1.5em;
 				}
 
 		
@@ -32,6 +38,7 @@ div.nav-bar{
 				hr{
 					margin-top: 2em;
 					margin-left: 3em;
+					margin-bottom: 1.5em;
 				}
 
 			
@@ -50,9 +57,11 @@ div.nav-bar{
 			background-image:url('../imgs/high-toad.png');
 		}	
 		#social-media-left{
+			margin-top: 1em;
 			margin-left:1.5em;
 		}
 		#social-media-right{
+			margin-top: 1em;
 			margin-left: 1em;
 		}
 }
@@ -63,39 +72,54 @@ div.pf-carousel{
 	border: solid;
 	/*margin-top: 2em;*/
 	margin-bottom: 2em;
-	margin-right: 6em;
-	margin-left: 6em;
+	margin-right: 15em;
+	margin-left: 15em;
 }
 
 
 #mid-page-heading{
-	margin-left: 6em;
+	margin-left: 15em;
 }
 
 .dev-creds{
 
 	height:30em;
-	margin-right: 6em;
-	margin-left: 6em;
+	margin-right: 14em;
+	margin-left: 14em;
 	margin-top: 2em;
+	margin-bottom: 2em;
 	padding-left: 1em;
-	border: dashed;
+
+
+	/*border: dashed;*/
 		#creds1{
-			width: 32%;
+			width: 31%;
 			height: 100%;
 			border: dotted;
 			display: inline-block;
+			float: left;
+			margin-right: 1em;
+
 		}
 		#creds2{
-			width: 32%;
+			width: 31%;
 			height: 100%;
 			border: dotted;
 			display: inline-block;
+			float: left;
+			margin-right: 1em;
 		}
 		#creds3{
-			width: 32%;
+			width: 31%;
 			height: 100%;
 			border: dotted;
 			display: inline-block;
+			float: left;
 		}
+}
+
+.footer{
+	width: 100%;
+	height: 4em;
+	border: dashed;
 }
