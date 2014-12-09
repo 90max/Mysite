@@ -1,4 +1,74 @@
-h1{
-	color:red;
-	background-size: 100%;
+div.nav-bar{
+
+	height: 10em;
+	margin-left: 6em;
+	margin-right: 6em;
+
+		#nav-right{
+			float: right;
+			margin-right: 5em;
+
+				hr{
+					margin-top: 2em;
+					margin-left: 2.6em;
+				}
+
+		
+
+				li{
+					margin-right: 3.5em;
+					display: inline;
+				}
+		}
+		#nav-left{
+			float: left;
+			margin-left: 3.5em;
+				hr{
+					margin-top: 2em;
+					margin-left: 3em;
+				}
+
+			
+				li{
+					margin-left: 3.5em;
+					display: inline;
+					
+				}
+		}
+		#logo-holder{
+			border: solid;
+			border-radius: 50%;
+			height: 10em;
+			width: 10em;
+			margin-left: 10em;
+			display: inline-block;
+		}	
+		#social-media-left{
+			margin-left:1.5em;
+		}
+		#social-media-right{
+			margin-left: 1em;
+		}
+}
+
+div.pf-carousel{
+
+	height: 20em;
+	border: solid;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: 6em;
+	margin-left: 6em;
+}
+
+#mid-page-heading{
+	margin-left: 6em;
+}
+
+.dev-creds{
+	height:30em;
+	margin-right: 6em;
+	margin-left: 6em;
+	margin-top: 2em;
+	border: solid;
 }
