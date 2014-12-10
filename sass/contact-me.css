@@ -1,0 +1,45 @@
+div.nav-bar {
+  z-index: 0;
+  height: 4em;
+  margin-left: 6em;
+  margin-right: 6em; }
+  div.nav-bar #nav-right {
+    font-family: Futurafont;
+    float: right;
+    width: 33%;
+    /*margin-right: 5em;*/ }
+    div.nav-bar #nav-right hr {
+      margin-top: 2em;
+      margin-right: 3em;
+      margin-bottom: 1.5em; }
+    div.nav-bar #nav-right li {
+      margin-right: 4.5em;
+      display: inline; }
+  div.nav-bar #nav-left {
+    font-family: Futurafont;
+    float: left;
+    width: 33%;
+    /*margin-left: 3.5em;*/ }
+    div.nav-bar #nav-left hr {
+      margin-top: 2em;
+      margin-left: 3em;
+      margin-bottom: 1.5em; }
+    div.nav-bar #nav-left li {
+      margin-left: 4.5em;
+      display: inline; }
+  div.nav-bar #logo-holder {
+    width: 33%;
+    /*z-index: 2;*/
+    height: 198px;
+    display: inline-block;
+    background-image: url("../imgs/high-toad.png");
+    background-position: center;
+    background-repeat: no-repeat; }
+  div.nav-bar #social-media-left {
+    margin-top: 1em;
+    margin-left: 1.5em; }
+  div.nav-bar #social-media-right {
+    margin-top: 1em;
+    margin-left: 1em; }
+
+/*# sourceMappingURL=contact-me.css.map */
